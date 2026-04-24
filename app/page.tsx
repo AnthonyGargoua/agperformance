@@ -82,7 +82,7 @@ export default function App() {
             <header className="sticky top-0 z-50 bg-black/80 backdrop-blur-xl p-6 border-b border-white/10">
                 <div className="flex items-center gap-2 text-cyan-400 mb-1">
                     <Zap size={14} fill="currentColor" />
-                    <span className="text-[10px] font-black tracking-widest uppercase">AG TRAINING</span>
+                    <span className="text-[10px] font-black tracking-widest uppercase">AG PERFORMANCE</span>
                 </div>
                 <h1 className="text-4xl font-black italic">{day.toUpperCase()}</h1>
                 <div className="flex justify-between text-xs font-bold text-zinc-500 mt-2">
