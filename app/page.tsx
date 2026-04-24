@@ -29,10 +29,10 @@ const WORKOUT_DATA = {
         { name: "Oiseau Poulie", sets: 3, reps: "15", muscle: "Epaules", img: IMGS.epaules },
         { name: "Curl Barre EZ", sets: 3, reps: "8-10", muscle: "Biceps", img: IMGS.bras }
     ]},
-    "Mercredi": { spec: "Legs 1 - Quads", duration: "85", exercises: [
+    "Mercredi": { spec: "Legs 1 - Quadriceps", duration: "85", exercises: [
         { name: "Squat Barre Haute", sets: 4, reps: "6-8", muscle: "Cuisses", img: IMGS.legs },
-        { name: "Presse à Cuisses", sets: 3, reps: "10-15", muscle: "Quads", img: IMGS.legs },
-        { name: "Leg Extension", sets: 3, reps: "15-20", muscle: "Quads", img: IMGS.legs },
+        { name: "Presse à Cuisses", sets: 3, reps: "10-15", muscle: "Quadriceps", img: IMGS.legs },
+        { name: "Leg Extension", sets: 3, reps: "15-20", muscle: "Quadriceps", img: IMGS.legs },
         { name: "Adducteurs Machine", sets: 3, reps: "15", muscle: "Adducteurs", img: IMGS.legs },
         { name: "Mollets Debout", sets: 4, reps: "12-15", muscle: "Mollets", img: IMGS.legs }
     ]},
@@ -50,12 +50,12 @@ const WORKOUT_DATA = {
         { name: "Curl Pupitre", sets: 3, reps: "10-12", muscle: "Biceps", img: IMGS.bras },
         { name: "Curl Marteau", sets: 3, reps: "10-12", muscle: "Biceps", img: IMGS.bras }
     ]},
-    "Samedi": { spec: "Legs 2 - Ischios", duration: "80", exercises: [
-        { name: "SdT Jambes Tendues", sets: 4, reps: "8-10", muscle: "Ischios", img: IMGS.legs },
+    "Samedi": { spec: "Legs 2 - Ischio-jambiers", duration: "80", exercises: [
+        { name: "SdT Jambes Tendues", sets: 4, reps: "8-10", muscle: "Ischio", img: IMGS.legs },
         { name: "Hip Thrust", sets: 3, reps: "8-10", muscle: "Fessiers", img: IMGS.legs },
-        { name: "Leg Curl Assis", sets: 3, reps: "12-15", muscle: "Ischios", img: IMGS.legs },
+        { name: "Leg Curl Assis", sets: 3, reps: "12-15", muscle: "Ischio", img: IMGS.legs },
         { name: "Abducteurs Machine", sets: 3, reps: "15", muscle: "Fessiers", img: IMGS.legs },
-        { name: "Presse Pieds Hauts", sets: 3, reps: "12", muscle: "Ischios", img: IMGS.legs }
+        { name: "Presse Pieds Hauts", sets: 3, reps: "12", muscle: "Ischio", img: IMGS.legs }
     ]}
 };
 
