@@ -1,1 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+:root {
+  --bg-black: #050505;
+}
+
+body {
+  background-color: var(--bg-black);
+  color: white;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none; /* Désactive le pull-to-refresh sur mobile */
+}
+
+/* Scrollbar invisible mais fonctionnelle */
+::-webkit-scrollbar {
+  display: none;
+}
