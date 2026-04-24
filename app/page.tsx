@@ -15,14 +15,14 @@ const IMGS = {
 };
 
 const WORKOUT_DATA = {
-    "Lundi": { spec: "Push 1 - Pecs/Tri", duration: "75", exercises: [
+    "Lundi": { spec: "Push 1 - Pecs/Triceps", duration: "75", exercises: [
         { name: "Dév. Couché Barre", sets: 4, reps: "6-8", muscle: "Pecs", img: IMGS.pecs },
         { name: "Dév. Incliné Haltères", sets: 3, reps: "10-12", muscle: "Pecs Haut", img: IMGS.pecs },
         { name: "Dév. Militaire Assis", sets: 3, reps: "8-10", muscle: "Epaules", img: IMGS.epaules },
         { name: "Ecartés Poulie", sets: 3, reps: "12-15", muscle: "Pecs", img: IMGS.pecs },
         { name: "Barre au Front", sets: 3, reps: "10-12", muscle: "Triceps", img: IMGS.bras }
     ]},
-    "Mardi": { spec: "Pull 1 - Dos/Bi", duration: "70", exercises: [
+    "Mardi": { spec: "Pull 1 - Dos/Biceps", duration: "70", exercises: [
         { name: "Soulevé de Terre", sets: 3, reps: "5", muscle: "Dos", img: IMGS.dos },
         { name: "Tractions Lestées", sets: 3, reps: "6-8", muscle: "Dos", img: IMGS.dos },
         { name: "Rowing Barre T", sets: 3, reps: "10-12", muscle: "Dos", img: IMGS.dos },
