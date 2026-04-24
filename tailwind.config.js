@@ -1,12 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}", // Au cas où tu en ajoutes
   ],
   theme: {
     extend: {
       colors: {
-        neon: '#00d2ff',
+        cyan: {
+          400: '#22d3ee',
+          500: '#06b6d4',
+        }
       }
     },
   },
