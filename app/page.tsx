@@ -7,7 +7,7 @@ import { Clock, Check, Zap, Dumbbell, Bike, Trophy, ChevronLeft, Flame, Map, Sav
 const IMGS = {
     pecs: "https://images.unsplash.com/photo-1581009137042-c552e485697a?q=80&w=600",
     dos: "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?q=80&w=600",
-    legs: "https://images.unsplash.com/photo-1434608216196-18084a9e526c?q=80&w=600",
+    legs: "https://unsplash.com/fr/photos/un-homme-sans-chemise-oytTrK0Oho0",
     epaules: "https://images.unsplash.com/photo-1541534741688-6078c6bd35e5?q=80&w=600",
     bras: "https://images.unsplash.com/photo-1581009146145-b5ef03a7401a?q=80&w=600",
     vtt: "https://images.unsplash.com/photo-1544191959-2426bb96eead?q=80&w=600",
