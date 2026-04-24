@@ -150,7 +150,7 @@ export default function App() {
                     >
                         <span className="uppercase text-xs tracking-tighter">Repos actif</span>
                         <span className="text-3xl tracking-tighter">{Math.floor(timeLeft/60)}:{(timeLeft%60).toString().padStart(2,'0')}</span>
-                        <button onClick={() => setTimeLeft(0)} className="bg-black/10 p-2 rounded-lg text-[10px]">SKIP</button>
+                        <button onClick={() => setTimeLeft(0)} className="bg-black/10 p-2 rounded-lg text-[10px]">REPRISE</button>
                     </motion.div>
                 )}
             </AnimatePresence>
