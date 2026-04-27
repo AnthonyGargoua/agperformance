@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --main-bg: #F1600D;
+  --black-bg: #1F1F1F;
 }
 
 body {
-  background-color: var(--main-bg) !important;
+  background-color: var(--black-bg);
   color: white;
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior-y: none; /* Désactive le pull-to-refresh sur mobile */
