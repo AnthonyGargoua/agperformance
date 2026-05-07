@@ -1,36 +1,61 @@
-AG Performance est une plateforme web moderne dédiée au coaching sportif de haut niveau et à l'optimisation des performances physiques. Ce site permet aux athlètes, qu'ils soient débutants ou confirmés, d'accéder à des programmes d'entraînement personnalisés, de suivre leur progression et de bénéficier d'un accompagnement sur mesure.
+# ⚡ AG Performance — Plateforme de Coaching & Performance
 
-🌐 Lien du projet
-Accéder au site : https://agperformance.vercel.app/
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Live-orange?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Performance-Optimized-red?style=for-the-badge&logo=speedtest" alt="Performance">
+  <img src="https://img.shields.io/badge/SEO-Friendly-brightgreen?style=for-the-badge" alt="SEO">
+</p>
 
-✨ Fonctionnalités principales
-Programmes d'Entraînement : Plans spécifiques adaptés selon les objectifs (prise de masse, perte de poids, explosivité, réathlétisation).
+---
 
-Suivi de Progression : Outils de monitoring pour suivre l'évolution des performances et des habitudes de vie.
+## 📖 Présentation du Projet
 
-Coaching 1-to-1 : Interface permettant un échange direct et personnalisé avec le coach.
+**AG Performance** est un site vitrine haute performance dédié au coaching et à l'accompagnement professionnel. L'objectif principal de ce projet est de convertir des visiteurs en clients grâce à une interface structurée, des appels à l'action (CTA) stratégiques et un design qui inspire la confiance et l'énergie.
 
-Communauté : Accès à un réseau de membres partageant les mêmes objectifs de santé holistique.
+📍 **Lien du projet :** [https://agperformance.vercel.app/](https://agperformance.vercel.app/)
 
-Interface Responsive : Optimisé pour une utilisation fluide sur mobile, tablette et desktop.
+### 🎯 Objectifs Business & Tech
+- **Conversion** : Architecture pensée pour le marketing (Landing Page efficace).
+- **Vitesse** : Optimisation critique du temps de chargement pour un référencement (SEO) maximal.
+- **Crédibilité** : Design professionnel utilisant des codes visuels forts et dynamiques.
 
-🛠️ Stack Technique
-Le projet repose sur les technologies suivantes :
+---
 
-Frontend : Next.js / React (assumé via le déploiement Vercel).
+## 🛠 Stack Technique
 
-Styling : Tailwind CSS pour un design moderne et rapide.
+- **Architecture** : HTML5 sémantique pour une structure SEO-ready.
+- **Design System** : CSS3 avec une utilisation avancée des `CSS Variables` pour une identité visuelle cohérente (rouge/noir/blanc).
+- **Moteur d'Animation** : GSAP pour des transitions percutantes qui soulignent le dynamisme du coaching.
+- **Interactivité** : JavaScript ES6 pour la gestion des formulaires et de la navigation fluide.
+- **Hébergement** : Déploiement ultra-rapide via l'infrastructure globale de Vercel.
 
-Déploiement : Vercel pour une intégration continue (CI/CD).
+---
 
-Icons : Lucide React / FontAwesome.
+## ✨ Fonctionnalités Majeures
 
-📁 Structure du Projet
-├── public/          # Assets statiques (images, favicons)
-├── src/
-│   ├── components/  # Composants UI réutilisables
-│   ├── pages/       # Pages du site (système de routage)
-│   ├── styles/      # Fichiers CSS globaux
-│   └── utils/       # Fonctions utilitaires et hooks
-├── package.json     # Dépendances et scripts
-└── README.md        # Documentation du projet
+| Fonctionnalité | Bénéfice Utilisateur |
+| :--- | :--- |
+| **Hero Section Dynamique** | Capture l'attention immédiatement avec un message fort et une animation d'entrée. |
+| **Grid de Services** | Présentation claire et structurée des différentes offres de performance. |
+| **CTA Stratégiques** | Boutons d'action optimisés pour maximiser les prises de contact. |
+| **Responsive Ultra-fluide** | Expérience de navigation parfaite, que l'utilisateur soit à la salle de sport ou au bureau. |
+
+---
+
+## 📈 Optimisation SEO & Performance
+
+Le nom "Performance" n'est pas seulement dans le titre, il est dans le code :
+- **Minification** : Code CSS et JS optimisé pour réduire le poids des fichiers.
+- **Lazy Loading** : Chargement intelligent des images pour prioriser le contenu visible.
+- **Accessibilité** : Respect des standards WCAG pour une navigation inclusive.
+
+---
+
+## 📁 Organisation du Projet
+```text
+├── assets/             # Images haute définition et icônes performance
+├── js/
+│   └── app.js          # Séquençage des animations et logique UI
+├── styles/
+│   └── main.css        # Framework CSS sur mesure et variables de thème
+└── index.html          # Structure de la Landing Page
