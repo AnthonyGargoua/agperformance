@@ -1,4 +1,3 @@
-**AG Performance 🚀**
 AG Performance est une plateforme web moderne dédiée au coaching sportif de haut niveau et à l'optimisation des performances physiques. Ce site permet aux athlètes, qu'ils soient débutants ou confirmés, d'accéder à des programmes d'entraînement personnalisés, de suivre leur progression et de bénéficier d'un accompagnement sur mesure.
 
 🌐 Lien du projet
