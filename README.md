@@ -26,7 +26,6 @@ Déploiement : Vercel pour une intégration continue (CI/CD).
 Icons : Lucide React / FontAwesome.
 
 📁 Structure du Projet
-Plaintext
 ├── public/          # Assets statiques (images, favicons)
 ├── src/
 │   ├── components/  # Composants UI réutilisables
