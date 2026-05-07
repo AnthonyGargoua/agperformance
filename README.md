@@ -24,3 +24,14 @@ Styling : Tailwind CSS pour un design moderne et rapide.
 Déploiement : Vercel pour une intégration continue (CI/CD).
 
 Icons : Lucide React / FontAwesome.
+
+📁 Structure du Projet
+Plaintext
+├── public/          # Assets statiques (images, favicons)
+├── src/
+│   ├── components/  # Composants UI réutilisables
+│   ├── pages/       # Pages du site (système de routage)
+│   ├── styles/      # Fichiers CSS globaux
+│   └── utils/       # Fonctions utilitaires et hooks
+├── package.json     # Dépendances et scripts
+└── README.md        # Documentation du projet
