@@ -1,8 +1,4 @@
-Voici une proposition de fichier README.md structuré et professionnel pour le projet AG Performance.
-
-Ce modèle est basé sur les informations de votre plateforme (coaching sportif, suivi de performance, programmes personnalisés) et utilise un format standard pour les projets hébergés sur Vercel.
-
-AG Performance 🚀
+**AG Performance 🚀**
 AG Performance est une plateforme web moderne dédiée au coaching sportif de haut niveau et à l'optimisation des performances physiques. Ce site permet aux athlètes, qu'ils soient débutants ou confirmés, d'accéder à des programmes d'entraînement personnalisés, de suivre leur progression et de bénéficier d'un accompagnement sur mesure.
 
 🌐 Lien du projet
