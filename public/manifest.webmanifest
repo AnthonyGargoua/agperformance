@@ -1,0 +1,13 @@
+{
+  "name": "AG Performance",
+  "short_name": "AG Perf",
+  "description": "Programme, chrono et XP : transforme tes seances en jeu.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF6EA",
+  "theme_color": "#FFF6EA",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

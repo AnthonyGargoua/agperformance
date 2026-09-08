@@ -3,17 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --black-bg: #1F1F1F;
+  --paper: #FFF6EA;
+  --ink: #171223;
+  --accent: #6C3CFF;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background-color: var(--black-bg);
-  color: white;
-  -webkit-tap-highlight-color: transparent;
-  overscroll-behavior-y: none; /* Désactive le pull-to-refresh sur mobile */
+  min-height: 100dvh;
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(900px 480px at 6% -10%, rgba(255, 61, 138, 0.22), transparent 62%),
+    radial-gradient(760px 460px at 108% 2%, rgba(18, 194, 233, 0.20), transparent 58%),
+    radial-gradient(720px 520px at 50% 110%, rgba(108, 60, 255, 0.16), transparent 60%);
+  background-attachment: fixed;
+  color: var(--ink);
+  overscroll-behavior-y: none;
 }
 
-/* Scrollbar invisible mais fonctionnelle */
 ::-webkit-scrollbar {
   display: none;
+}
+
+@layer components {
+  .card {
+    @apply rounded-[26px] border-2 border-ink bg-white shadow-pop;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl border-2 border-ink font-black uppercase tracking-tight shadow-pop transition-transform duration-100 active:translate-y-1 active:shadow-none;
+  }
+  .field {
+    @apply w-full rounded-xl border-2 border-ink bg-paper px-3 py-2 font-bold outline-none focus:bg-white;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border-2 border-ink px-2.5 py-[3px] text-[11px] font-black uppercase leading-tight;
+  }
+}
+
+.tabnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Barre d'XP : degrade anime en boucle */
+.xp-fill {
+  background: linear-gradient(100deg, #6C3CFF, #FF3D8A, #FFC02E, #6C3CFF);
+  background-size: 200% 100%;
+  animation: shine 2.5s linear infinite;
+}
+
+@keyframes shine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
 }
